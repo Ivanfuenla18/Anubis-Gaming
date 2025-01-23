@@ -1,0 +1,74 @@
+nav {
+  background-color: #000 !important;
+}
+
+.content_perfil {
+
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  /* margin-top: 10px; */
+  flex-direction: column;
+  align-items: stretch;
+  background-image: url('../img/login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: space-evenly;
+}
+
+.content_perfil .login-box {
+  top: 20%;
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+label {
+  color: white;
+
+
+
+
+}
+
+/* =================================================================*/
+
+.file-input-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.file-input-text {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.file-input-button {
+  color: rgba(129, 5, 240, 1);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(129, 5, 240, 1);
+}
+
+span.file-input-text {
+  margin-bottom: 20px;
+}
+
+.file-input-button:hover {
+  background-color: rgba(129, 5, 240, 1);
+  color: white;
+}

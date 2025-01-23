@@ -1,0 +1,198 @@
+nav{
+
+    background-color: #000 !important;
+
+}
+
+.contenido_general{
+    margin-bottom: 30px;
+}
+
+.bg-header {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #AFD3E2;
+    background-image: url("../imagenes/banner.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+video#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.promo-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.promo-text {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.promo-btn {
+    background-color: #28252B;
+    color: #FFFFFF;
+    border:2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.promo-btn:hover {
+    background-color: #FEFF86;
+    color: #28252B;
+}
+
+.contenido3, .contenido2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    gap: 50px;
+}
+
+.texto {
+    width: 500px;
+    text-align: center;  
+}
+
+.texto p a {
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #28252B;
+    color: #FFFFFF;
+}
+
+.texto p a:hover {
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: underline;
+    background-color: #28252B;
+    color: #FEFF86;
+}
+
+.img1,.img2,.img3 {
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+}
+
+.img1{
+    background-image: url("../img/tele_juego.jpg");
+}
+
+.img2 {
+    background-image: url("../img/dados-morados-sobre-fondo-morado.jpg");
+}
+
+.img3{
+    background-image: url("../img/image.png");
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);}
+
+.texto h2 {
+    font-size: 42px;
+    margin-bottom: 43px;
+    text-align: center;
+
+    color: white;
+}
+
+/* @MEDIAS */
+
+@media screen and (max-width: 1105px) {
+    
+    .contenido2 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .top {
+        height: 91px;    
+    }
+}
+
+@media screen and (max-width: 750px) {
+    
+    .texto {
+        width: 300px;  
+    }
+    
+    .img1, .img2, .img3 {
+        height: 300px;
+        width: 300px;
+    }
+    
+    .texto h2 {
+        font-size:30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 749.60px) {
+    
+    .texto {
+        width: 300px;
+        font-size: 16px;  
+    }
+    
+    .img1, .img2, .img3{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .texto h2 {
+        font-size:20px;
+        margin-bottom: 10px;
+    }
+
+    .contenido3, .contenido2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        /* width: 95%; */
+        margin: 0 auto;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .contenido3 {
+        flex-direction: column;
+    }
+}

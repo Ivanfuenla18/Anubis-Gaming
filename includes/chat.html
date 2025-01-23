@@ -1,0 +1,33 @@
+
+
+
+<body>
+  <button id="boton-chat" type="button" class="boton-bot circular" onclick="mostrarContenido()">
+    <i id="icono-chat" class="uil uil-robot"></i>
+  </button>
+  <div class="contenido">
+    <div class="contenedor-de-chat">
+      <!-- Mensajes -->
+      <div id="cuadro-de-chat">
+        <br>
+        <h5 id="marca-tiempo" style="text-align: center; padding: 5px;"></h5>
+        <p id="mensaje-inicial-del-bot" class="texto-del-bot"><span>Cargando...</span></p>
+      </div>
+
+      <div id="parte-inferior-de-la-barra-de-chat">
+        <p></p>
+      </div>
+    </div>
+    <!-- Cuadro de entrada del usuario parte inferior del cuadro de Thot -->
+    <form id="formulario" class="div_entrada_chat">
+      <button class="btn_corazon"><span>&hearts;</span></button>
+      <div class="paco">
+        <textarea id="descripcion" name="descripcion" class="mensaje_entrada" rows="1" maxlength="2000"
+          aria-label="Type your message" autocomplete="on" placeholder="Escribe tu mensaje" title=""></textarea>
+      </div>
+      <button type="submit" class="btn_enviar"><span>&#10148;</span></button>
+    </form>
+  </div>
+</body>
+
+</html>

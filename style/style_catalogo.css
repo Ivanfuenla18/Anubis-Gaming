@@ -1,0 +1,134 @@
+nav {
+    background-color: #000 !important;
+}
+
+body {
+    background-color: #564576;
+}
+
+.card2 .img2 img {
+
+
+    border-radius: 5%;
+    width: 400px;
+
+    height: 238px;
+
+}
+
+.card2 {
+
+
+    padding: 30px;
+    transition: all 0.5s ease;
+
+
+
+}
+
+.card2 img {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img2:hover img {
+    transform: scale(1.2);
+}
+.img{
+
+    overflow:hidden !important;
+    border-radius: 5%;
+
+}
+.juegos2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    color: white;
+}
+
+.card2 .texto2 {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_juegos2 {
+
+    margin-left: 85px;
+    margin-top: 25px;
+
+
+}
+
+.ver_mas2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+.a_juegos2 {
+
+    margin-right: 85px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.a_juegos2:hover {
+
+
+    color: #ffffff;
+    background-color: black;
+
+}
+
+.formulario2 h2 {
+
+    text-align: center;
+    color: #FFB7E0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.formulario2 {
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.formulario2 input[type=text] {
+
+    border: 2px solid rgba(129, 5, 240, 1);
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.formulario2 input[type=text]:focus {
+    border-color: rgba(129, 5, 240, 1);
+    box-shadow: 0 0 100px 0 rgba(129, 5, 240, 1);
+
+
+}
