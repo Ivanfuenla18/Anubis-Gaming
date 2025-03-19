@@ -17,9 +17,7 @@ Anubis Gaming es una **plataforma de venta de videojuegos** desarrollada con mú
 - **Backend**: PHP, MySQL, Node.js, Express  
 - **Interactividad**: AJAX  
 
-## 📸 Capturas de Pantalla  
 
-![Anubis Gaming](./assets/anubis-gaming.png)  
 
 ## 🔧 Instalación y Uso  
 
